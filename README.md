@@ -13,7 +13,7 @@ A Chrome extension to download transaction data from Bancolombia as CSV files fo
     - [Using Translation via the Chrome i18n API](#using-translation-via-the-chrome-i18n-api)
 
 ## Install
-- Download `bancolombia-extractor.crx`
+- Download the latest `bancolombia-extractor.crx` from the [releases page](https://github.com/techdev5521/bancolombia-extractor/releases)
 - Open [chrome://extensions](chrome://extensions) in a new tab
 - Drag `bancolombia-extractor.crx` onto the extensions page
 

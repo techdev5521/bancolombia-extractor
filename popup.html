@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <!-- https://picocss.com/docs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+      /* Don't squish */
+      html { min-width: 300px; }
+
+      /* Give some vertail space to popup */
+      body { padding: 1rem 0 }
+      
+      /* Hide top level divs by default */
+      body > div, #getMovimientosError, #getTransaccionesError {
+        display: none;
+      }
+
+      /* Center Titles */
+      h1, h2, h3, h4, h5, h6 { text-align: center;}
+      
+      /* Make buttons and button-like object fullwidth */
+      button, a[role="button"] { width: 100%; margin: .25rem 0; }
+
+      .text-error { color: #ED4337 }
+    </style>
+  </head>
+
+  <body class="container">
+    <h5 data-i18n-id="extTitle"></h5>
+
+    <div id="redirection">
+      <p class="notice" data-i18n-id="needToSigninMessage"></p>
+      <a 
+        href="https://svpersonas.apps.bancolombia.com/detalles-y-movimientos/cuentas" 
+        class="button" role="button" data-i18n-id="signInMessage"
+      >
+      </a>
+    </div>
+
+    <div id="selectAccount">
+      <p data-i18n-id="selectAccountMessage"></p>
+    </div>
+
+    <div id="movimientosActions">
+      <h2 data-i18n-id="movimientosTitle"></h2>
+      <p id="movimientosSelectTab"><mark data-i18n-id="movimientosSelectTab"></mark></p>
+      <button id="getMovimientos" data-i18n-id="getMovimientosMessage"></button>
+      <article id="getMovimientosError">
+        <header data-i18n-id="errorMessage" class="text-error"></header>
+        <code></code>
+      </article>
+    </div>
+
+    <div id="transaccionesActions">
+      <h2 data-i18n-id="transaccionesTitle"></h2>
+      <button id="getTransacciones" data-i18n-id="getTransaccionesMessage"></button>
+      <article id="getTransaccionesError">
+        <header data-i18n-id="errorMessage" class="text-error"></header>
+        <code></code>
+      </article>
+    </div>
+  </body>
+
+  <!-- Popup JavaScript -->
+  <script src="popup.js"></script>
+  <!-- Service Worker -->
+  <script src="background.js"></script>
+</html>

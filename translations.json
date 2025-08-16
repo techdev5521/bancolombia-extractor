@@ -1,0 +1,86 @@
+{
+    "extTitle": {
+        "en": "Bancolombia Extractor",
+        "es": "Extractor de Bancolombia"
+    },
+    "extDesc": {
+        "en": "Automate the download of the last 3 months of transctions and transfers from Bancolombia.",
+        "es": "Descargar automáticamente los 3 últimos meses de transacciones y transferencias desde Bancolombia."
+    },
+
+    "needToSigninMessage": {
+        "en": "You must be signed into the Bancolombia website to use this tool.",
+        "es": "Hay que iniciar sesión en el sitio web de Bancolombia para usar este extensión."
+    },
+    "signInMessage": {
+        "en": "Sign into Bancolombia",
+        "es": "Iniciar sesión en Bancolombia"
+    },
+
+    "selectAccountMessage": {
+        "en": "To download transaction or transfer data, select an account and go to Movimientos or Historia de Transacciones.",
+        "es": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta y naviga a Movimientos o Historia de Transacciones"
+    },
+
+    "movimientosTitle": {
+        "en": "Transfers",
+        "es": "Movimientos"
+    },
+    "movimientosSelectTab": {
+        "en": "Select the Movimientos tab load transfers.",
+        "es": "Selecciona el tab de Movimmientos para cargar los movimientos. "
+    },
+    "getMovimientosMessage": {
+        "en": "Get Transfers",
+        "es": "Obtener Movimientos"
+    },
+    "gotMovimientosMessage": {
+        "en": "Got # Transfers",
+        "es": "Obtuviste # Movimientos"
+    },
+
+    "transaccionesTitle": {
+        "en": "Transactions",
+        "es": "Tranacciones"
+    },
+    "getTransaccionesMessage": {
+        "en": "Get Transactions",
+        "es": "Obtener Transacciones"
+    },
+    "gotTransaccionesMessage": {
+        "en": "Got # Transactions",
+        "es": "Obtuviste # Transacciones"
+    },
+
+    "transactionHeaderDate": { "en": "Date", "es": "Fecha" },
+    "transactionHeaderStatus": { "en": "Status", "es": "Estado" },
+    "transactionHeaderType": { "en": "Type", "es": "Tipo" },
+    "transactionHeaderAmount": { "en": "Amount", "es": "Cantidad" },
+    "transactionHeaderPayee": { "en": "Payee", "es": "Receptor(a)" },
+    "transactionHeaderCategory": { "en": "Category", "es": "Categoría" },
+    "transactionHeaderNumber": { "en": "Number", "es": "Numero" },
+    "transactionHeaderNote": { "en": "Notes", "es": "Notas" },
+    "transactionHeaderBalance": { "en": "Balance", "es": "Balance" },
+    "transactionHeaderAccount": { "en": "Account", "es": "Cuenta" },
+    "transactionStatusReconciled": {
+        "en": "Reconciled",
+        "es": "Reconciliado"
+    },
+    "transactionTypeWithdrawal": {
+        "en": "Withdrawal",
+        "es": "Retiro"
+    },
+    "transactionTypeDepost": {
+        "en": "Depsoit",
+        "es": "Depósito"
+    },
+
+    "errorMessage": {
+        "en": "Something went wrong!",
+        "es": "Algo salió mal!"
+    },
+    "badTokenMessage": {
+        "en": "Your session has expired. Refresh the page and try again.",
+        "es": "Tu sesíon ha expirado. Entra de nuevo y intenta de nuevo."
+    }
+}

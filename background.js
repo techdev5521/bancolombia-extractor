@@ -1,5 +1,3 @@
-console.log(`Hello from service worker!`);
-
 let urlFilters = [
     // Movimientos API Call
     "https://canalpersonas-ext.apps.bancolombia.com/super-svp/api/v1/security-filters/ch-ms-deposits/account/transactions",
@@ -14,7 +12,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 
         // Get the request ID
         let id = details.requestId
-
+        
         // Get the request body
         let decoder = new TextDecoder("utf-8")
         let body = JSON.parse(decoder.decode(details.requestBody.raw[0].bytes))

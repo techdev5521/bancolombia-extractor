@@ -13,6 +13,11 @@ A Chrome extension to download transaction data from Bancolombia as CSV files fo
     - [Using Translation via the Chrome i18n API](#using-translation-via-the-chrome-i18n-api)
 
 ## Install
+
+| :information_source: Note               |
+|:----------------------------------------|
+| Chrome Web Store submittion is pending. |
+
 - Download the ZIP archive of this repo using the green Code button above.
 ![Download](readme_files/01.Download.png)
 - Extract the ZIP file once it is downloaded.

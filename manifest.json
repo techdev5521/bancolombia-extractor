@@ -18,6 +18,6 @@
     "service_worker": "background.js", 
     "type": "module"
   },
-  "permissions": [ "webRequest", "tabs", "storage", "downloads" ],
-  "host_permissions": ["*://*/*"]
+  "permissions": [ "webRequest", "activeTab", "storage", "downloads" ],
+  "host_permissions": ["https://*.bancolombia.com/*"]
 }

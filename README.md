@@ -1,6 +1,9 @@
 # Bancolombia Extractor
 A Chrome extension to download transaction data from Bancolombia as CSV files for use in external systems for money management.
 
+| ![Transacciones](readme_files/05.Transacciones.png)|
+| :------------------------------------------------: |
+
 - [Install](#install)
 - [Usage](#usage)
 - [Privacy Notice](#privacy-notice)

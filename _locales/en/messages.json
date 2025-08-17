@@ -1,0 +1,83 @@
+{
+    "extTitle": {
+        "message": "Bancolombia Extractor"
+    },
+    "extDesc": {
+        "message": "Automate the download of the last 3 months of transctions and transfers from Bancolombia."
+    },
+    "needToSigninMessage": {
+        "message": "You must be signed into the Bancolombia website to use this tool."
+    },
+    "signInMessage": {
+        "message": "Sign into Bancolombia"
+    },
+    "selectAccountMessage": {
+        "message": "To download transaction or transfer data, select an account and go to Movimientos or Historia de Transacciones."
+    },
+    "movimientosTitle": {
+        "message": "Transfers"
+    },
+    "movimientosSelectTab": {
+        "message": "Select the Movimientos tab load transfers."
+    },
+    "getMovimientosMessage": {
+        "message": "Get Transfers"
+    },
+    "gotMovimientosMessage": {
+        "message": "Got # Transfers"
+    },
+    "transaccionesTitle": {
+        "message": "Transactions"
+    },
+    "getTransaccionesMessage": {
+        "message": "Get Transactions"
+    },
+    "gotTransaccionesMessage": {
+        "message": "Got # Transactions"
+    },
+    "transactionHeaderDate": {
+        "message": "Date"
+    },
+    "transactionHeaderStatus": {
+        "message": "Status"
+    },
+    "transactionHeaderType": {
+        "message": "Type"
+    },
+    "transactionHeaderAmount": {
+        "message": "Amount"
+    },
+    "transactionHeaderPayee": {
+        "message": "Payee"
+    },
+    "transactionHeaderCategory": {
+        "message": "Category"
+    },
+    "transactionHeaderNumber": {
+        "message": "Number"
+    },
+    "transactionHeaderNote": {
+        "message": "Notes"
+    },
+    "transactionHeaderBalance": {
+        "message": "Balance"
+    },
+    "transactionHeaderAccount": {
+        "message": "Account"
+    },
+    "transactionStatusReconciled": {
+        "message": "Reconciled"
+    },
+    "transactionTypeWithdrawal": {
+        "message": "Withdrawal"
+    },
+    "transactionTypeDepost": {
+        "message": "Depsoit"
+    },
+    "errorMessage": {
+        "message": "Something went wrong!"
+    },
+    "badTokenMessage": {
+        "message": "Your session has expired. Refresh the page and try again."
+    }
+}

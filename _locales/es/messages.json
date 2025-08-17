@@ -1,0 +1,83 @@
+{
+    "extTitle": {
+        "message": "Extractor de Bancolombia"
+    },
+    "extDesc": {
+        "message": "Descargar autom\u00e1ticamente los 3 \u00faltimos meses de transacciones y transferencias desde Bancolombia."
+    },
+    "needToSigninMessage": {
+        "message": "Hay que iniciar sesi\u00f3n en el sitio web de Bancolombia para usar este extensi\u00f3n."
+    },
+    "signInMessage": {
+        "message": "Iniciar sesi\u00f3n en Bancolombia"
+    },
+    "selectAccountMessage": {
+        "message": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta y naviga a Movimientos o Historia de Transacciones"
+    },
+    "movimientosTitle": {
+        "message": "Movimientos"
+    },
+    "movimientosSelectTab": {
+        "message": "Selecciona el tab de Movimmientos para cargar los movimientos. "
+    },
+    "getMovimientosMessage": {
+        "message": "Obtener Movimientos"
+    },
+    "gotMovimientosMessage": {
+        "message": "Obtuviste # Movimientos"
+    },
+    "transaccionesTitle": {
+        "message": "Tranacciones"
+    },
+    "getTransaccionesMessage": {
+        "message": "Obtener Transacciones"
+    },
+    "gotTransaccionesMessage": {
+        "message": "Obtuviste # Transacciones"
+    },
+    "transactionHeaderDate": {
+        "message": "Fecha"
+    },
+    "transactionHeaderStatus": {
+        "message": "Estado"
+    },
+    "transactionHeaderType": {
+        "message": "Tipo"
+    },
+    "transactionHeaderAmount": {
+        "message": "Cantidad"
+    },
+    "transactionHeaderPayee": {
+        "message": "Receptor(a)"
+    },
+    "transactionHeaderCategory": {
+        "message": "Categor\u00eda"
+    },
+    "transactionHeaderNumber": {
+        "message": "Numero"
+    },
+    "transactionHeaderNote": {
+        "message": "Notas"
+    },
+    "transactionHeaderBalance": {
+        "message": "Balance"
+    },
+    "transactionHeaderAccount": {
+        "message": "Cuenta"
+    },
+    "transactionStatusReconciled": {
+        "message": "Reconciliado"
+    },
+    "transactionTypeWithdrawal": {
+        "message": "Retiro"
+    },
+    "transactionTypeDepost": {
+        "message": "Dep\u00f3sito"
+    },
+    "errorMessage": {
+        "message": "Algo sali\u00f3 mal!"
+    },
+    "badTokenMessage": {
+        "message": "Tu ses\u00edon ha expirado. Entra de nuevo y intenta de nuevo."
+    }
+}

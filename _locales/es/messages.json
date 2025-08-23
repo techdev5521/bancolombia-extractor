@@ -12,13 +12,13 @@
         "message": "Iniciar sesi\u00f3n en Bancolombia"
     },
     "selectAccountMessage": {
-        "message": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta y naviga a Movimientos o Historia de Transacciones"
+        "message": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta."
     },
     "movimientosTitle": {
         "message": "Movimientos"
     },
     "movimientosSelectTab": {
-        "message": "Selecciona el tab de Movimmientos para cargar los movimientos. "
+        "message": "Selecciona la pesta\u00f1a Movimmientos para descargar."
     },
     "getMovimientosMessage": {
         "message": "Obtener Movimientos"
@@ -27,7 +27,7 @@
         "message": "Obtuviste # Movimientos"
     },
     "transaccionesTitle": {
-        "message": "Tranacciones"
+        "message": "Transacciones"
     },
     "getTransaccionesMessage": {
         "message": "Obtener Transacciones"
@@ -78,6 +78,6 @@
         "message": "Algo sali\u00f3 mal!"
     },
     "badTokenMessage": {
-        "message": "Tu ses\u00edon ha expirado. Entra de nuevo y intenta de nuevo."
+        "message": "Tu ses\u00edon ha expirado, entra e intenta de nuevo."
     }
 }

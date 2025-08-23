@@ -18,8 +18,8 @@
     },
 
     "selectAccountMessage": {
-        "en": "To download transaction or transfer data, select an account and go to Movimientos or Historia de Transacciones.",
-        "es": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta y navega a Movimientos o Historia de Transacciones"
+        "en": "To download transaction or transfer data, select an account.",
+        "es": "Para descargar los datos de transacciones o movimientos, selecciona una cuenta."
     },
 
     "movimientosTitle": {
@@ -28,7 +28,7 @@
     },
     "movimientosSelectTab": {
         "en": "Select the Movimientos tab load transfers.",
-        "es": "Selecciona el tab de Movimmientos para cargar los movimientos. "
+        "es": "Selecciona la pestaña Movimmientos para descargar."
     },
     "getMovimientosMessage": {
         "en": "Get Transfers",

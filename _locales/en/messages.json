@@ -12,7 +12,7 @@
         "message": "Sign into Bancolombia"
     },
     "selectAccountMessage": {
-        "message": "To download transaction or transfer data, select an account and go to Movimientos or Historia de Transacciones."
+        "message": "To download transaction or transfer data, select an account."
     },
     "movimientosTitle": {
         "message": "Transfers"

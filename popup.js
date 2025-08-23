@@ -31,6 +31,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
                         return
                     }
                     document.querySelector("#movimientosSelectTab").style.display = "none"
+                    document.querySelector("#getMovimientos").style.display = "block"
                 }
             })
             break;
@@ -137,7 +138,7 @@ async function getTransactions(event) {
 
     // Unset Loading State
     button.removeAttribute("aria-busy")
-    button.textContent = chrome.i18n.getMessage("gotMovimientosMessage").replace("#", all_transactions.length)
+    button.textContent = chrome.i18n.getMessage(type == "movimientos" ? "gotMovimientosMessage" : "gotTransaccionesMessage").replace("#", all_transactions.length)
     let filename = type == "movimientos"
         ? chrome.i18n.getMessage("movimientosTitle")
         : chrome.i18n.getMessage("transaccionesTitle")

@@ -3,7 +3,7 @@
   "name": "__MSG_extTitle__",
   "description": "__MSG_extDesc__",
   "version": "1.0",
-  "default_locale": "en",
+  "default_locale": "es",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icons/icon16.png"

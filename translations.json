@@ -28,7 +28,7 @@
     },
     "movimientosSelectTab": {
         "en": "Select the Movimientos tab load transfers.",
-        "es": "Selecciona la pestaña Movimmientos para descargar."
+        "es": "Selecciona la pestaña Movimientos para descargar los datos."
     },
     "getMovimientosMessage": {
         "en": "Get Transfers",

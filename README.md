@@ -1,8 +1,8 @@
 # Bancolombia Extractor
 A Chrome extension to download transaction data from Bancolombia as CSV files for use in external systems for money management.
 
-| ![Transacciones](readme_files/05.Transacciones.png)|
-| :------------------------------------------------: |
+| ![Select Account](readme_files/03.Select%20Account.png)| ![Single Button](readme_files/04.Single%20Button.png) | ![CSV](readme_files/05.CSV.png) |
+| :-----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------: |
 
 - [Install](#install)
 - [Usage](#usage)
@@ -18,7 +18,7 @@ A Chrome extension to download transaction data from Bancolombia as CSV files fo
 ## Install
 
 | :information_source: Note               |
-|:----------------------------------------|
+|:---------------------------------------:|
 | Chrome Web Store submittion is pending. |
 
 - Download the ZIP archive of this repo using the green Code button above.
@@ -38,11 +38,7 @@ A Chrome extension to download transaction data from Bancolombia as CSV files fo
 - To download transaction data, select "Historials de Transacciones" and open the extension
 
 ## Privacy Notice
-This extension does not store or transmit any data dealing with your account. It works by listening for network requests made by the Bancolombia webpage to retrieve your data and copying the authentication information into memory while it makes subsequent requests to get all data. This request data is temporarily stored in the extension local storage and can be reviewed by:
-
-- Opening the extension popup, right clicking in the popup and selecting "Inspect" to open the extension's developer tools.
-- Selecting the Application tab and reviewing the extension local storage values.
-
+This extension can read and download your Bancolombia transactions. All of the data is stored on your computer and does not leave. You can delete all stored data by removing the extension.
 
 ## Lifecycle of Request
 ```mermaid
